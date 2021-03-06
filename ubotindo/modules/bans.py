@@ -272,7 +272,7 @@ def kick(update, context):
         # sticker
         context.bot.sendMessage(
             chat.id,
-            "Untill we meet again {}.".format(
+            "Gausa caper disini makanya tolol {}.".format(
                 mention_html(member.user.id, member.user.first_name)
             ),
             parse_mode=ParseMode.HTML,
@@ -313,7 +313,7 @@ def banme(update, context):
 
     res = update.effective_chat.kick_member(user_id)
     if res:
-        update.effective_message.reply_text("Yes, you're right! GTFO..")
+        update.effective_message.reply_text("Ybnr, lu kang ghosting ! Pergi lu asu..")
         log = (
             "<b>{}:</b>"
             "\n#BANME"
