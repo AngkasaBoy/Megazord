@@ -128,7 +128,7 @@ def warn(
             ]
         )
 
-        reply = "User {} has {}/{} warnings... watch out!".format(
+        reply = "Jamet {} Kena {}/{} peringatan! baca rules tolol!".format(
             mention_html(user.id, user.first_name), num_warns, limit
         )
         if reason:
