@@ -212,7 +212,7 @@ def temp_ban(update, context):
         if excp.message == "Reply message not found":
             # Do not reply
             message.reply_text(
-                "Goodbye.. we'll meet after {}.".format(time_val), quote=False
+                "Goodbye.. kang ghosting asuu {}.".format(time_val), quote=False
             )
             return log
         else:
