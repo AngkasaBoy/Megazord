@@ -93,7 +93,7 @@ def mute(update, context):
             )
 
         else:
-            message.reply_text("This user is already taped 🤐")
+            message.reply_text("Si Jelek Uda Diem Asu 🤐")
     else:
         message.reply_text("This user isn't in the chat!")
 
