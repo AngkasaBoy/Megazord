@@ -54,7 +54,7 @@ def purge(update, context):
                 elif err.message != "Message to delete not found":
                     LOGGER.exception("Error while purging chat messages.")
 
-            del_msg = context.bot.send_message(chat.id, "Purge complete.")
+            del_msg = context.bot.send_message(chat.id, "Berhasil menghapus masa lalu😭.")
             time.sleep(2)
 
             try:
