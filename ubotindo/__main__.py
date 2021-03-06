@@ -63,12 +63,13 @@ from ubotindo.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-┗┓HAI KAWAN. GUA *{dispatcher.bot.first_name}*┏┛.
+┗┓HAI KAWAN! GUA *{dispatcher.bot.first_name}*┏┛.
 GUA HADIR UNTUK MELENYAPKAN KANG GHOSTING! use /help
 
 Tambahin gua ke grup lu dan kasih akses admin!
 SIAP MELENYAPKAN KANG GHOSTING!!!
 
+JANGAN LUPA JUGA UNTUK SUPPORT YANG ADA DIBAWAH
 • Subscribe Channel Gua.         • @storyangkasa
 • OWNER GANTENG.   •* [ANGKASA](https://t.me/leoangkasaaa)
 
