@@ -74,6 +74,7 @@ JANGAN LUPA JUGA UNTUK SUPPORT YANG ADA DIBAWAH
 • OWNER GANTENG.   •* [ANGKASA](https://t.me/leoangkasaaa)
 
 *Thanks For MyBaginda :* [KOALA](https://t.me/manusiarakitann)
+*Base Bot From        :* [USERINDO](https://t.me/userbotindo)
 
 Mau tambahkan gua ke grup? Klik LINK dibawah!
 """
