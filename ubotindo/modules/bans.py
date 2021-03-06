@@ -98,7 +98,7 @@ def ban(update, context):
         # sticker
         context.bot.sendMessage(
             chat.id,
-            "BANGSAT KAU {} TERBANNED .".format(
+            "MAMPUS LU {} TERGHOSTING .".format(
                 mention_html(member.user.id, member.user.first_name)
             ),
             parse_mode=ParseMode.HTML,
@@ -204,7 +204,7 @@ def temp_ban(update, context):
         # context.bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie
         # sticker
         message.reply_text(
-            "Banned! Karena kamu jelek {}.".format(time_val)
+            "Ghosting! Karena lu jamet {}.".format(time_val)
         )
         return log
 
@@ -294,7 +294,7 @@ def kick(update, context):
         return log
 
     else:
-        message.reply_text("Get Out!.")
+        message.reply_text("PERGI LU ASU!.")
 
     return ""
 
@@ -392,7 +392,7 @@ def unban(update, context):
         return ""
 
     chat.unban_member(user_id)
-    message.reply_text("Done, they can join again!")
+    message.reply_text("Sip, Memaafkan kang ghosting!")
 
     log = (
         "<b>{}:</b>"
