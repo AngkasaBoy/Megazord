@@ -146,7 +146,7 @@ def unmute(update, context):
                     can_add_web_page_previews=True,
                 ),
             )
-            message.reply_text("lain kali gausah sok keras KONTOL...")
+            message.reply_text("lain kali gausa CAPER ANJENG...")
             return (
                 "<b>{}:</b>"
                 "\n#UNMUTE"
@@ -248,7 +248,7 @@ def temp_mute(update, context):
                 until_date=mutetime,
                 permissions=ChatPermissions(can_send_messages=False),
             )
-            message.reply_text("diam bentar lu {} anjeng!".format(time_val))
+            message.reply_text("gabisa caper bentar lu {} KONTOL!".format(time_val))
             return log
         else:
             message.reply_text("This user is already muted.")
