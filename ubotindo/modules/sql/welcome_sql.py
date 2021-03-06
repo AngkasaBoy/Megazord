@@ -12,8 +12,8 @@ from sqlalchemy import (
     UnicodeText,
 )
 
-DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_WELCOME = "Hallo {first}, pasti lu mau ghosting ya?"
+DEFAULT_GOODBYE = "Bye kang ghosting!"
 
 
 class Welcome(BASE):
