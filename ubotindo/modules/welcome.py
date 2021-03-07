@@ -214,7 +214,7 @@ def new_member(update, context):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "My Owner in the house Let's party 🎉",
+                    "Owner gua yang paling cakep dateng guys",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -227,7 +227,7 @@ def new_member(update, context):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "My Dev Here, let's see what happened now 🔥",
+                    "Developer gua yang cakep datang guys",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -236,7 +236,7 @@ def new_member(update, context):
             elif new_mem.id == context.bot.id:
                 try:
                     update.effective_message.reply_text(
-                        "Hey 😍 {}, I'm {}! Thank you for adding me to {}".format(
+                        "Halo kang ghosting {}, Gua {}! Makasih udah make gua ya {}".format(
                             user.first_name, context.bot.first_name, chat_name
                         ),
                         reply_to_message_id=reply,
