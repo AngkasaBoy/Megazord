@@ -66,15 +66,15 @@ PM_START_TEXT = f"""
 ┗┓HAI JAMET! GUA *{dispatcher.bot.first_name}*┏┛.
 GUA HADIR UNTUK MELENYAPKAN KANG GHOSTING! use /help
 
-Tambahin gua ke grup lu dan kasih akses admin!
+Tambahin gua ke grup dan kasih akses admin!
 SIAP MELENYAPKAN KANG GHOSTING!!!
 
 JANGAN LUPA JUGA UNTUK SUPPORT YANG ADA DIBAWAH
-• Subscribe Channel Gua.  • @storyangkasa
-• OWNER GANTENG.          • @leoangkasaaa
+• Subscribe Channel.  • @storyangkasa
+• OWNER GANTENG.      • @leoangkasaaa
 
-*Thanks For MyBaginda : @manusiarakitann
-*Base Bot From        : @userbotindo
+*Thanks MyBaginda : @manusiarakitann
+*Base Bot From    : @userbotindo
 
 Mau tambahkan gua ke grup? Klik LINK dibawah!
 """
@@ -287,7 +287,7 @@ def start(update, context):
 
         else:
             update.effective_message.reply_photo(
-                "https://telegra.ph/file/9e85cdbdc95197ae0cba7.jpg",
+                "https://telegra.ph/file/bb665df9bdddaacb25cca.jpg",
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
